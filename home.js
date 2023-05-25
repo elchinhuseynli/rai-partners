@@ -10,6 +10,18 @@ document.addEventListener("DOMContentLoaded", function () {
       loop: true,
       contentType: "text"
     });
+
+    // Initialize hero slider
+
+    const heroSlider = new Swiper(".mission-slider", {
+        slidesPerView: 1,
+        autoplay: {
+          delay: 3000 // 3 seconds 
+        },
+        speed: 1200,
+        loop: true,
+      });
+
   
     // Initialize thumbs slider
     const thumbsSlider = new Swiper(".clients_thumbs-slider", {
