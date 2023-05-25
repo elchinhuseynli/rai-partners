@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const darkThemeLink = document.createElement("link");
       darkThemeLink.id = "dark-theme-style";
       darkThemeLink.rel = "stylesheet";
-      darkThemeLink.href = "https://reu5ym.csb.app/dark-theme.css";
+      darkThemeLink.href = "https://cdn.jsdelivr.net/gh/elchinhuseynli/rai-partners@latest/dark-theme.min.css";
       document.head.appendChild(darkThemeLink);
     }
   
