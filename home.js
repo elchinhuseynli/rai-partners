@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const heroSlider = new Swiper(".mission-slider", {
         slidesPerView: 1,
         autoplay: {
-          delay: 3000 // 3 seconds 
+          delay: 2200
         },
-        speed: 1200,
+        speed: 800,
         loop: true,
       });
 
