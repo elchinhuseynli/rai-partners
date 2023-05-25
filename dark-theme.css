@@ -1,0 +1,129 @@
+body,
+.body,
+/* .overlay-layer, */
+.radial-background {
+  background-color: black;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.radial-background {
+  opacity: 0;
+}
+
+.overlay-layer {
+  opacity: 0;
+}
+
+.hero_interactive-logo {
+  display: none;
+}
+
+.hero_interactive-logo.is-dark-theme {
+  display: block;
+}
+
+.section-wrapper {
+  background: none;
+}
+
+.mission-cta_card,
+.services_card {
+  color: black;
+}
+
+.orange-radial,
+.dark-navy-radial {
+  display: block;
+}
+
+.section_benefits p {
+  color: white;
+}
+
+.mission_card p {
+  color: white;
+}
+
+.fs_selectcustom_arrow {
+  color: white;
+}
+
+.clients_slider_item-content-wrapper > h3 {
+  filter: invert(1);
+}
+
+/* Tablet & below */
+@media screen and (max-width: 767px) {
+  .swiper-slide.is-thumbs-slider.swiper-slide-thumb-active
+    .clients_thumbs-slider_item {
+    color: white;
+  }
+}
+
+.contact_form-container .button {
+  border-color: white;
+}
+
+.contact_form-container form input {
+  color: white;
+}
+
+.form-input.is-text-area {
+  color: white;
+}
+/* career page */
+
+.section_career-hero h2 {
+  color: black;
+}
+
+.career-benefits_card {
+  color: black;
+}
+
+.career-start_p {
+  color: white;
+}
+
+.benefits_title-p {
+  color: white;
+}
+
+.section_roles .fs_accordion_header {
+  background-image: linear-gradient(45deg, #9a9fb6, transparent);
+  color: #f2f2f2;
+}
+
+.job_content-box {
+  color: black;
+}
+
+.modal__content {
+  color: black;
+}
+
+/* faq page */
+
+.section_faq-hero h2 {
+  color: black;
+}
+
+.fs_accordion_body.is-faq p {
+  color: white;
+}
+
+/* terms and conditions page */
+
+.section_terms-hero h2 {
+  color: black;
+}
+
+.terms_link-box {
+  background-image: linear-gradient(45deg, #9a9fb6, transparent);
+  color: #f2f2f2;
+}
+
+.terms_link-box .icon-link {
+  color: #f2f2f2;
+}
