@@ -127,3 +127,9 @@ body,
 .terms_link-box .icon-link {
   color: #f2f2f2;
 }
+
+// newsroom page
+
+.newsroom_top-section-wrapper {
+  background-image: none;
+}
