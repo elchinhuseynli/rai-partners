@@ -128,8 +128,24 @@ body,
   color: #f2f2f2;
 }
 
-// newsroom page
+/* newsroom page */
 
 .newsroom_top-section-wrapper {
   background-image: none;
+  background-color: transparent;
+}
+
+.newsroom_slider {
+  background-color: transparent;
+}
+
+.news_item {
+  background-image: url(https://uploads-ssl.webflow.com/647f7878d27b99564d730adb/6485a6fcf4715910f51aeb50_news-card-bg-dark.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.news_item .news_item-title {
+  color: white;
 }
