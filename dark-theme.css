@@ -130,6 +130,29 @@ body,
 
 /* newsroom page */
 
+.newsroom_nav-wrapper-light .navigation_container {
+  color: white;
+}
+
+.newsroom_nav-wrapper-light img {
+  display: none;
+}
+
+.newsroom_nav-wrapper-light .navigation_top_left-link {
+  background-image: url(https://uploads-ssl.webflow.com/647f7878d27b99564d730adb/647f7878d27b99564d730b46_Static.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.newsroom_nav-wrapper-light .navigation_top {
+  border-bottom-color: white;
+}
+
+.form-input.is-subscribe {
+  color: white;
+}
+
 .newsroom_top-section-wrapper {
   background-image: none;
   background-color: transparent;
@@ -146,6 +169,92 @@ body,
   background-repeat: no-repeat;
 }
 
-.news_item .news_item-title {
+.section_blog-post-header {
+  background: none;
+}
+
+/* blog post page */
+
+.section_blog-post-header .navigation_container {
+  color: white !important;
+}
+
+.section_blog-post-header .navigation_top_left-link img {
+  display: none;
+}
+
+.section_blog-post-header .navigation_top_left-link {
+  background-image: url(https://uploads-ssl.webflow.com/647f7878d27b99564d730adb/647f7878d27b99564d730b46_Static.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section_blog-post-header .navigation_top {
+  border-bottom-color: white;
+}
+
+.section_blog-post-header .blog-post-header_return-link {
   color: white;
+}
+
+.blog-post-header_date {
+  color: white;
+}
+
+.blog-post-content_text-rich-text p {
+  color: white;
+}
+
+/* newsrom archive page */
+
+.filter_select {
+  border: 1px solid rgb(255 255 255 / 30%);
+  color: white;
+}
+
+.filter_select:hover {
+  border: 1px solid rgb(255 255 255 / 60%);
+}
+
+.dropdown_list.w--open {
+  background-color: #2d2a2a;
+  border: 1px solid #434343;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.checkbox_field {
+  color: white;
+}
+
+.checkbox_field:hover {
+  color: black;
+}
+
+.checkbox_field:hover .checkbox_input {
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.checkbox_input {
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.filter_search-field {
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  color: white;
+}
+
+.section_blog-post-related .line-divider {
+  background-color: white;
+}
+
+/* search page */
+
+.search-item {
+  background-color: none;
+  background-image: url(https://uploads-ssl.webflow.com/647f7878d27b99564d730adb/6485a6fcf4715910f51aeb50_news-card-bg-dark.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
 }

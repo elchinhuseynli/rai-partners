@@ -12,3 +12,20 @@ copyUrlBtns.forEach(btn => {
       });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  var goBackButton = document.querySelector('[data-button="go-back"]');
+  
+  // If button is found
+  if (goBackButton) {
+      // If there is no previous history
+      if (!history.length || history.length <= 1) {
+          goBackButton.style.display = 'none';
+      } else {
+          // Attach click event
+          goBackButton.addEventListener('click', function() {
+              window.history.back();
+          });
+      }
+  }
+});
