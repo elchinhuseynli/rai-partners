@@ -258,3 +258,13 @@ body,
   background-repeat: no-repeat;
   color: black;
 }
+
+/* footer */
+
+.footer-new {
+  color: white;
+}
+
+.footer-new .footer_logo-link {
+  background-image: url(https://uploads-ssl.webflow.com/647f7878d27b99564d730adb/647f7878d27b99564d730b30_Logonav-top-left.svg);
+}
