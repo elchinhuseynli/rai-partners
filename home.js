@@ -23,40 +23,36 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
   
-    // Initialize thumbs slider
-    const thumbsSlider = new Swiper(".clients_thumbs-slider", {
-      slidesPerView: 3,
-      spaceBetween: 4,
-      loop: true,
-      // centeredSlides: true,
-      touchRatio: 0.2,
-      slideToClickedSlide: true,
-      watchSlidesVisibility: true,
-      watchSlidesProgress: true
-    });
-  
-    // Initialize clients slider
-    const clientsSlider = new Swiper(".clients_slider", {
-      slidesPerView: 1,
-      effect: "fade", // Add the fade effect
-      speed: 1200,
-      autoplay: {
-        delay: 10000
-      },
-      fadeEffect: {
-        crossFade: true // Enable cross-fade effect
-      },
-      loop: true,
-      thumbs: {
-        swiper: thumbsSlider
-      },
-      // spaceBetween: 30,
-      navigation: {
-        nextEl: '[data-slider-thumbs="arrow-next"]',
-        prevEl: '[data-slider-thumbs="arrow-prev"]'
-      }
-    });
-  });
+// Initialize thumbs slider
+const thumbsSlider = new Swiper(".clients_thumbs-slider", {
+  slidesPerView: 3,
+  spaceBetween: 4,
+  loop: true,
+  // centeredSlides: true,
+  touchRatio: 0.2,
+  slideToClickedSlide: true,
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true
+});
+
+// Initialize clients slider
+const clientsSlider = new Swiper(".clients_slider", {
+  slidesPerView: 1,
+  speed: 1200,
+  autoplay: {
+    delay: 10000
+  },
+  loop: true,
+  thumbs: {
+    swiper: thumbsSlider
+  },
+  // spaceBetween: 30,
+  navigation: {
+    nextEl: '[data-slider-thumbs="arrow-next"]',
+    prevEl: '[data-slider-thumbs="arrow-prev"]'
+  }
+});
+});
   
   // Custom random function with a step
   function customRandom(min, max, step) {
